@@ -1,0 +1,8 @@
+---
+applications:
+- name: myapp_config
+  memory: 128MB
+  disk_quota: 256MB
+  random-route: true
+  buildpack: https://github.com/guidowb/buildpack-python.git#new-config-mgmt
+  command: python app.py

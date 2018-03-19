@@ -7,6 +7,13 @@ port = int(os.getenv("PORT", 9099))
 
 contacts = [];
 
+@app.route("/env")
+def environment():
+	properties = []
+	for k,v in sorted(os.environ.iteritems()):
+		properties.append(k + "=" + v)
+	return json.dumps(properties, indent=4)
+
 @app.route("/")
 def welcome():
     return 'Welcome Msg!'
