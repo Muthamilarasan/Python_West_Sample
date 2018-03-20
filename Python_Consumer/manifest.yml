@@ -1,7 +1,6 @@
 ---
 applications:
-- name: pyconfig
-  memory: 1024M
-  host: pyconfig
+- name: my_consumer
   buildpack: python_buildpack
   command: python app.py
+  health-check-type: none

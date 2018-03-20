@@ -1,0 +1,5 @@
+---
+applications:
+- name: my_producer
+  buildpack: python_buildpack
+  command: python app.py
