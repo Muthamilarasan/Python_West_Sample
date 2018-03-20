@@ -1,8 +1,7 @@
 ---
 applications:
-- name: myapp_config
-  memory: 128MB
-  disk_quota: 256MB
-  random-route: true
-  buildpack: https://github.com/guidowb/buildpack-python.git#new-config-mgmt
+- name: pyconfig
+  memory: 1024M
+  host: pyconfig
+  buildpack: python_buildpack
   command: python app.py
