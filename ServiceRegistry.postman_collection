@@ -1,0 +1,51 @@
+{
+	"id": "9b27e317-b612-9cae-d887-454774c7d61f",
+	"name": "ServiceRegistry",
+	"description": "",
+	"order": [
+		"3d1cff9e-48f2-6d11-eebf-2d9bb5acff4b"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1522074709287,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "3d1cff9e-48f2-6d11-eebf-2d9bb5acff4b",
+			"headers": "Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImtleS0xIiwidHlwIjoiSldUIn0.eyJqdGkiOiI5NTUxMDU3YzljZGE0NDRiYjcwOWYwYzEwNDE0ZDQzZSIsInN1YiI6InAtc2VydmljZS1yZWdpc3RyeS1hNTE4N2Q5My1hZTc4LTQzMGUtYmIyNS1mMGNlYjBlZjIyM2YiLCJhdXRob3JpdGllcyI6WyJwLXNlcnZpY2UtcmVnaXN0cnkuNDk4ZmZkMjMtYzE0Zi00YmJjLTk4ZTQtOGVmMWJmOTE5Y2Y0LnJlYWQiLCJwLXNlcnZpY2UtcmVnaXN0cnkuNDk4ZmZkMjMtYzE0Zi00YmJjLTk4ZTQtOGVmMWJmOTE5Y2Y0LndyaXRlIl0sInNjb3BlIjpbInAtc2VydmljZS1yZWdpc3RyeS40OThmZmQyMy1jMTRmLTRiYmMtOThlNC04ZWYxYmY5MTljZjQucmVhZCIsInAtc2VydmljZS1yZWdpc3RyeS40OThmZmQyMy1jMTRmLTRiYmMtOThlNC04ZWYxYmY5MTljZjQud3JpdGUiXSwiY2xpZW50X2lkIjoicC1zZXJ2aWNlLXJlZ2lzdHJ5LWE1MTg3ZDkzLWFlNzgtNDMwZS1iYjI1LWYwY2ViMGVmMjIzZiIsImNpZCI6InAtc2VydmljZS1yZWdpc3RyeS1hNTE4N2Q5My1hZTc4LTQzMGUtYmIyNS1mMGNlYjBlZjIyM2YiLCJhenAiOiJwLXNlcnZpY2UtcmVnaXN0cnktYTUxODdkOTMtYWU3OC00MzBlLWJiMjUtZjBjZWIwZWYyMjNmIiwiZ3JhbnRfdHlwZSI6ImNsaWVudF9jcmVkZW50aWFscyIsInJldl9zaWciOiJiMDFiZWFiZCIsImlhdCI6MTUyMjA3MjI4MSwiZXhwIjoxNTIyMDcyMzExLCJpc3MiOiJodHRwczovL3Atc3ByaW5nLWNsb3VkLXNlcnZpY2VzLnVhYS5zeXN0ZW0uZGV2LmRpZ2lmYWJyaWNwY2YuY29tL29hdXRoL3Rva2VuIiwiemlkIjoiMDQ5ZmIzZjgtZjk3Ni00NWE0LTllYTMtMDA0ZDQ1NmQ0ZTM4IiwiYXVkIjpbInAtc2VydmljZS1yZWdpc3RyeS40OThmZmQyMy1jMTRmLTRiYmMtOThlNC04ZWYxYmY5MTljZjQiLCJwLXNlcnZpY2UtcmVnaXN0cnktYTUxODdkOTMtYWU3OC00MzBlLWJiMjUtZjBjZWIwZWYyMjNmIl19.bJlNaAJ2-DePywFqXicamQsH2af3pUJq5khhgjoIRm0yc7ylMIFR4FGoYDdge8TUqlDfmZxe60tOrIDJC27Xup6K9eW9QJlxoFVi4i1SY2JanZg_QtNVWGECUSX3R4HLc9nDvmJtkLJ11sIYklO5ekVVCGJwLIrkmfDXkZtUkiLkdGcJ0YCJYvc6sgDreRDtQqD4zK2Vr2Yhj9YD3lXiHisqDFkgrAGeft-qOLNIi0OSv3jm_LA6dCHle-trRkDKA774iLcBO6pbuFS9cF2J_0YOVYqQSdLT0DOTtDsLCMYsFZen98YtptZ9XOZHgkcuy_c8uHWqD_goN-mYSRM8kg\ngrant_type: client_credentials\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImtleS0xIiwidHlwIjoiSldUIn0.eyJqdGkiOiI5NTUxMDU3YzljZGE0NDRiYjcwOWYwYzEwNDE0ZDQzZSIsInN1YiI6InAtc2VydmljZS1yZWdpc3RyeS1hNTE4N2Q5My1hZTc4LTQzMGUtYmIyNS1mMGNlYjBlZjIyM2YiLCJhdXRob3JpdGllcyI6WyJwLXNlcnZpY2UtcmVnaXN0cnkuNDk4ZmZkMjMtYzE0Zi00YmJjLTk4ZTQtOGVmMWJmOTE5Y2Y0LnJlYWQiLCJwLXNlcnZpY2UtcmVnaXN0cnkuNDk4ZmZkMjMtYzE0Zi00YmJjLTk4ZTQtOGVmMWJmOTE5Y2Y0LndyaXRlIl0sInNjb3BlIjpbInAtc2VydmljZS1yZWdpc3RyeS40OThmZmQyMy1jMTRmLTRiYmMtOThlNC04ZWYxYmY5MTljZjQucmVhZCIsInAtc2VydmljZS1yZWdpc3RyeS40OThmZmQyMy1jMTRmLTRiYmMtOThlNC04ZWYxYmY5MTljZjQud3JpdGUiXSwiY2xpZW50X2lkIjoicC1zZXJ2aWNlLXJlZ2lzdHJ5LWE1MTg3ZDkzLWFlNzgtNDMwZS1iYjI1LWYwY2ViMGVmMjIzZiIsImNpZCI6InAtc2VydmljZS1yZWdpc3RyeS1hNTE4N2Q5My1hZTc4LTQzMGUtYmIyNS1mMGNlYjBlZjIyM2YiLCJhenAiOiJwLXNlcnZpY2UtcmVnaXN0cnktYTUxODdkOTMtYWU3OC00MzBlLWJiMjUtZjBjZWIwZWYyMjNmIiwiZ3JhbnRfdHlwZSI6ImNsaWVudF9jcmVkZW50aWFscyIsInJldl9zaWciOiJiMDFiZWFiZCIsImlhdCI6MTUyMjA3MjI4MSwiZXhwIjoxNTIyMDcyMzExLCJpc3MiOiJodHRwczovL3Atc3ByaW5nLWNsb3VkLXNlcnZpY2VzLnVhYS5zeXN0ZW0uZGV2LmRpZ2lmYWJyaWNwY2YuY29tL29hdXRoL3Rva2VuIiwiemlkIjoiMDQ5ZmIzZjgtZjk3Ni00NWE0LTllYTMtMDA0ZDQ1NmQ0ZTM4IiwiYXVkIjpbInAtc2VydmljZS1yZWdpc3RyeS40OThmZmQyMy1jMTRmLTRiYmMtOThlNC04ZWYxYmY5MTljZjQiLCJwLXNlcnZpY2UtcmVnaXN0cnktYTUxODdkOTMtYWU3OC00MzBlLWJiMjUtZjBjZWIwZWYyMjNmIl19.bJlNaAJ2-DePywFqXicamQsH2af3pUJq5khhgjoIRm0yc7ylMIFR4FGoYDdge8TUqlDfmZxe60tOrIDJC27Xup6K9eW9QJlxoFVi4i1SY2JanZg_QtNVWGECUSX3R4HLc9nDvmJtkLJ11sIYklO5ekVVCGJwLIrkmfDXkZtUkiLkdGcJ0YCJYvc6sgDreRDtQqD4zK2Vr2Yhj9YD3lXiHisqDFkgrAGeft-qOLNIi0OSv3jm_LA6dCHle-trRkDKA774iLcBO6pbuFS9cF2J_0YOVYqQSdLT0DOTtDsLCMYsFZen98YtptZ9XOZHgkcuy_c8uHWqD_goN-mYSRM8kg",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "grant_type",
+					"value": "client_credentials",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://eureka-498ffd23-c14f-4bbc-98e4-8ef1bf919cf4.app.dev.digifabricpcf.com",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "9b27e317-b612-9cae-d887-454774c7d61f",
+			"data": null,
+			"dataMode": "params",
+			"name": "Service Registry",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1522074720502,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
